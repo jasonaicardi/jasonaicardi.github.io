@@ -26,10 +26,11 @@ div#container {
 div#timer {
 	text-align:center;
 	font-family:monospace;
-	font-size:5vh;
+	font-size:5.5vh;
+
 }
 
-div#timer span {
-	display:inline;
-	margin: 0.3em;
+div#timer div {
+	display:inline-block;
+	margin: 0.2em 0.5em 0.2em;
 }
