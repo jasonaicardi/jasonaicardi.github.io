@@ -16,7 +16,6 @@ body {
 div#container {
 	width:100%;
 	height:100vh;
-	border: 1px solid deeppink;
 	padding:1vw;
 	display:flex;
 	align-items:center;
@@ -26,11 +25,11 @@ div#container {
 div#timer {
 	text-align:center;
 	font-family:monospace;
-	font-size:5.5vh;
+	font-size:5.25vh;
 
 }
 
 div#timer div {
 	display:inline-block;
-	margin: 0.2em 0.5em 0.2em;
+	margin: 0.2em 0.6em 0.2em;
 }
