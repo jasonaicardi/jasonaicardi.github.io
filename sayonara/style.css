@@ -1,0 +1,35 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+body {
+	background-color:black;
+	color:white;
+	margin:0;
+	padding:0;
+}
+
+div#container {
+	width:100%;
+	height:100vh;
+	padding:5vh;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+}
+
+div#timer {
+	text-align:center;
+	font-family:monospace;
+	font-size:5vh;
+
+}
+
+div#timer div {
+	display:inline-block;
+	margin: 0.2em 0.4em 0.2em;
+}
