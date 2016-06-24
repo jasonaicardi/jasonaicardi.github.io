@@ -9,7 +9,7 @@
 
 	}, false);
 
-	worker.postMessage((new Date(2016,5,24,15,38,25)).getTime());
+	worker.postMessage((new Date(2016,5,24,17)).getTime());
 
 
 })();
