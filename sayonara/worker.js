@@ -22,13 +22,16 @@ function startTimer(endTime) {
 }
 
 function timerTick(d,et) {
-		
-	var next = d-10;
-	var wait = et - (new Date).getTime() - next;
-	self.postMessage(formatTime(next));
-	setTimeout(function() {
-			timerTick(next,et);
-		}, (wait>0)?wait:0);
+	if (d <= 100){
+		self.postMessage(false);
+	} else {
+		var next = d-10;
+		var wait = et - (new Date).getTime() - next;
+		self.postMessage(formatTime(next));
+		setTimeout(function() {
+				timerTick(next,et);
+			}, (wait>0)?wait:0);
+	}
 }
 
 self.addEventListener('message', function(e) {
