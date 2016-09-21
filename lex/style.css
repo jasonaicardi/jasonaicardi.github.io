@@ -1,0 +1,74 @@
+html {
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,  figure, figcaption, footer, header, hgroup,  menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure,  footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+	background-color: deeppink;
+	color: #33041d;
+}
+
+h1 {
+	font-size: 4em;
+	font-family: 'Sacramento', cursive;
+	align-self: flex-start;
+}
+
+#container {
+	
+	margin: 2vh 2vw;
+	width: 96vw;
+	height: 96vh;
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#message {
+	
+	font-size: 3.5em;
+	margin: 1.5em 0.5em;
+	font-family: 'Pinyon Script', cursive;
+	text-align: center;
+
+}
+
+#more {
+	font-family: 'Sacramento', cursive;
+	font-size: 3em;
+	align-self: flex-end;
+	background-color: transparent;
+	border: none;
+	color: #990c58;
+}
+
+#more:hover {
+	border: none;
+	color: #ffb8de;
+}
+
+#button:active {
+	border: none;
+}
+
+
