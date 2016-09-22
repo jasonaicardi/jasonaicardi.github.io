@@ -23,8 +23,8 @@ article, aside, details, figcaption, figure,  footer, header, hgroup, menu, nav,
 
 body {
 	line-height: 1;
-	background-color: deeppink;
-	color: #33041d;
+	background-color: #33041d;
+	color: deeppink;
 }
 
 h1 {

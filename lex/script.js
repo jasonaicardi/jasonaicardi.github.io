@@ -9,7 +9,7 @@ function newMessage(){
 }
 
 function startTimer(){
-	setInterval(newMessage,6000);
+	setInterval(newMessage,9000);
 }
 
 
