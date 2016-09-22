@@ -25,11 +25,11 @@ body {
 	line-height: 1;
 	background-color: #33041d;
 	color: deeppink;
+	font-family:'Sacramento', cursive;
 }
 
 h1 {
 	font-size: 4em;
-	font-family: 'Sacramento', cursive;
 	align-self: flex-start;
 }
 
@@ -48,13 +48,11 @@ h1 {
 	
 	font-size: 3.5em;
 	margin: 1.5em 0.5em;
-	font-family: 'Pinyon Script', cursive;
 	text-align: center;
 
 }
 
 #more {
-	font-family: 'Sacramento', cursive;
 	font-size: 3em;
 	align-self: flex-end;
 	background-color: transparent;
