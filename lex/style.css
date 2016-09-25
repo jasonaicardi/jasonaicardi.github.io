@@ -58,6 +58,7 @@ h1 {
 	background-color: transparent;
 	border: none;
 	color: #990c58;
+	font-family: inherit;
 }
 
 #more:hover {
