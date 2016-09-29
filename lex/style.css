@@ -35,9 +35,9 @@ h1 {
 
 #container {
 	
-	margin: 2vh 2vw;
-	width: 96vw;
-	height: 96vh;
+	margin: 8vh 5vw 4vh 5vw;
+	width: 90vw;
+	height: 88vh;
 	display: flex;
 	flex-flow: column nowrap;
 	align-items: center;
@@ -46,14 +46,14 @@ h1 {
 
 #message {
 	
-	font-size: 3.5em;
-	margin: 1.5em 0.5em;
+	font-size: 3.25em;
+	margin: 1.5em 0.67em;
 	text-align: center;
 
 }
 
 #more {
-	font-size: 3em;
+	font-size: 2em;
 	align-self: flex-end;
 	background-color: transparent;
 	border: none;
