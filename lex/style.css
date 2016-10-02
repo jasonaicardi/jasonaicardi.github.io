@@ -52,22 +52,41 @@ h1 {
 
 }
 
-#more {
-	font-size: 2em;
+#buttons {
 	align-self: flex-end;
+}
+
+#buttons button {
+
 	background-color: transparent;
 	border: none;
 	color: #990c58;
 	font-family: inherit;
+	outline: none;
+	font-size: 6em;
 }
 
-#more:hover {
+#buttons button:hover {
 	border: none;
+	outline: none;
 	color: #ffb8de;
 }
 
-#button:active {
+#buttons button:active {
 	border: none;
+	outline: none;
 }
+
+#playpause {
+	text-align: left;
+	margin-right: 0.1em;
+}
+
+.material-icons {
+	font-size: 36px;
+}
+
+
+
 
 
