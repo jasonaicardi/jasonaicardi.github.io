@@ -1,14 +1,27 @@
 var request = new XMLHttpRequest(),
 	lines = [],
+	nextIndex = 0,
 	running = false,
 	id = 0,
 	messagediv = document.getElementById("message"),
 	nextBtn = document.getElementById("next"),
 	playpauseBtn = document.getElementById("playpause");
 
+function shuffleArray(array) {
+
+	for (let i = array.length - 1; i > 0; i--) {
+
+		let j = Math.floor(Math.random() * (i + 1));
+
+		[array[i],array[j]] = [array[j],array[i]];
+	}
+
+	return array;
+}
 
 function newMessage(){
-	messagediv.innerHTML = lines[Math.floor(Math.random()*lines.length)];
+	messagediv.innerHTML = lines[nextIndex];
+	nextIndex = (nextIndex === (lines.length-1))? 0 : nextIndex + 1;
 }
 
 function toggle(){
@@ -42,7 +55,8 @@ function updateButton(){
 }
 
 request.onload = function() {
-	lines = this.responseText.split('\n');
+	lines = shuffleArray(this.responseText.split('\n'));	
+
 	nextBtn.onclick = nextMsg;
 	playpauseBtn.onclick = toggle;
 	nextBtn.disabled = false;

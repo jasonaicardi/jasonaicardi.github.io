@@ -1,0 +1,2 @@
+#ignore sublime project and workspace files
+*.sublime-*
